@@ -54,7 +54,7 @@ img {
     background-attachment: fixed;
 }
 
-.welcome-disp::after {
+.welcome-disp::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -102,11 +102,6 @@ img {
 
 .main__subtitle::before {
     left: -45px;
-}
-
-.main__logo {
-    width: 84px;
-    height: 84px;
 }
 
 .gallery__item {
