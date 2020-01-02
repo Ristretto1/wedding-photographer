@@ -8,6 +8,10 @@ img {
     height: auto;
 }
 
+.navbar-nav__color {
+    background-color: rgba(23, 91, 112, 0.2);
+}
+
 .navbar-toggler-icon {
     line-height: 31px;
 }
@@ -44,14 +48,19 @@ img {
     transform: scale(1);
 }
 
-.welcome-disp {
+.main-header {
     height: 80vh;
+    
+}
+
+
+.welcome-disp {
     background-image: url('../img/welcome-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 65%;
     position: relative;
-    background-attachment: fixed;
+    height: 80vh;
 }
 
 .welcome-disp::before {
@@ -115,7 +124,6 @@ img {
     background-repeat: no-repeat;
     background-position: 65%;
     position: relative;
-    background-attachment: fixed;
 }
 
 .quote__text {
@@ -131,6 +139,20 @@ img {
     padding-left: 30px;
 }
 
+.contacts {
+    height: 80vh;
+}
+
+.contacts__photo {
+    background-image: url('../img/footer.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 80vh;
+}
+
+
+/* 
 .about {
     height: 60vh;    
 }
@@ -183,18 +205,18 @@ img {
 
 .about__list {
     font-size: 20px;
-}
+} */
 
 @media (max-width: 1299px) {
-    .about__text,
+    /* .about__text,
     .about__list {
         max-width: 650px;
         font-size: 18px;
-    }
+    } */
 }
 
 @media (max-width: 1199px) {
-    .about {
+    /* .about {
         height: 40vh;    
     }
 
@@ -202,11 +224,11 @@ img {
     .about__list {
         max-width: 650px;
         font-size: 16px;
-    }
+    } */
 }
 
 @media (max-width: 991px) {
-    .about {
+    /* .about {
         height: auto;
         padding: 0;
     }
@@ -226,7 +248,7 @@ img {
     .about__list {
         max-width: 750px;
         font-size: 18px;
-    }
+    } */
 
     .quote__text {
         font-size: 28px;
@@ -237,14 +259,12 @@ img {
 @media (max-width: 767px) {
     .quote {
         height: 60vh;
-        background-attachment: scroll;
     }
 }
 
 @media (max-width: 575px) {
     .welcome-disp {
         height: 50vh;
-        background-attachment: scroll;
     }
 
     .main__title {
@@ -261,6 +281,6 @@ img {
 
     .quote__text {
         font-size: 20px;
-        max-width: 400px;
+        max-width: 380px;
     }   
 }
